@@ -17,7 +17,7 @@ var properties = {
             "balcony": 3,
             "lounge": 1,
             "garage": 1,
-            "image": "assets/img/property-2.jpg",
+            "image": "http://placehold.it/364x243",
             "type_icon": "assets/img/building.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor"
         },
@@ -38,7 +38,7 @@ var properties = {
             "balcony": 3,
             "lounge": 1,
             "garage": 1,
-            "image": "assets/img/property-1.jpg",
+            "image": "http://placehold.it/364x243",
             "type_icon": "assets/img/building.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor"
         },
@@ -59,7 +59,7 @@ var properties = {
             "balcony": 3,
             "lounge": 1,
             "garage": 1,
-            "image": "assets/img/property-3.jpg",
+            "image": "http://placehold.it/364x243",
             "type_icon": "assets/img/building.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor"
         },
@@ -80,7 +80,7 @@ var properties = {
             "balcony": 3,
             "lounge": 1,
             "garage": 1,
-            "image": "assets/img/property-4.jpg",
+            "image": "http://placehold.it/364x243",
             "type_icon": "assets/img/building.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor"
         },
@@ -101,7 +101,7 @@ var properties = {
             "balcony": 3,
             "lounge": 1,
             "garage": 1,
-            "image": "assets/img/property-5.jpg",
+            "image": "http://placehold.it/364x243",
             "type_icon": "assets/img/building.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor"
         },
@@ -122,7 +122,7 @@ var properties = {
             "balcony": 3,
             "lounge": 1,
             "garage": 1,
-            "image": "assets/img/property-6.jpg",
+            "image": "http://placehold.it/364x243",
             "type_icon": "assets/img/building.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor"
         },
@@ -143,7 +143,7 @@ var properties = {
             "balcony": 3,
             "lounge": 1,
             "garage": 1,
-            "image": "assets/img/property-7.jpg",
+            "image": "http://placehold.it/364x243",
             "type_icon": "assets/img/building.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor"
         },
@@ -164,7 +164,7 @@ var properties = {
             "balcony": 3,
             "lounge": 1,
             "garage": 1,
-            "image": "assets/img/property-8.jpg",
+            "image": "http://placehold.it/364x243",
             "type_icon": "assets/img/building.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor"
         },
@@ -185,7 +185,7 @@ var properties = {
             "balcony": 3,
             "lounge": 1,
             "garage": 1,
-            "image": "assets/img/property-9.jpg",
+            "image": "http://placehold.it/364x243",
             "type_icon": "assets/img/building.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor"
         },
@@ -206,7 +206,7 @@ var properties = {
             "balcony": 3,
             "lounge": 1,
             "garage": 1,
-            "image": "assets/img/property-10.jpg",
+            "image": "http://placehold.it/364x243",
             "type_icon": "assets/img/building.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor"
         },
@@ -227,7 +227,7 @@ var properties = {
             "balcony": 3,
             "lounge": 1,
             "garage": 1,
-            "image": "assets/img/property-11.jpg",
+            "image": "http://placehold.it/364x243",
             "type_icon": "assets/img/building.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor"
         },
@@ -248,7 +248,7 @@ var properties = {
             "balcony": 3,
             "lounge": 1,
             "garage": 1,
-            "image": "assets/img/property-12.jpg",
+            "image": "http://placehold.it/364x243",
             "type_icon": "assets/img/building.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor"
         },
@@ -269,7 +269,7 @@ var properties = {
             "balcony": 3,
             "lounge": 1,
             "garage": 1,
-            "image": "assets/img/property-13.jpg",
+            "image": "http://placehold.it/364x243",
             "type_icon": "assets/img/building.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor"
         },
@@ -290,7 +290,7 @@ var properties = {
             "balcony": 3,
             "lounge": 1,
             "garage": 1,
-            "image": "assets/img/property-14.jpg",
+            "image": "http://placehold.it/364x243",
             "type_icon": "assets/img/building.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor"
         },
@@ -311,7 +311,7 @@ var properties = {
             "balcony": 3,
             "lounge": 1,
             "garage": 1,
-            "image": "assets/img/property-5.jpg",
+            "image": "http://placehold.it/364x243",
             "type_icon": "assets/img/building.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor"
         }
@@ -495,11 +495,11 @@ function insertPropertyToArray(property, layout) {
             '                                        <i class="fa fa-video-camera"></i>\n' +
             '                                    </a>\n' +
             '                                    <div class="property-magnify-gallery">\n' +
-            '                                        <a href="assets/img/property-2.jpg" class="overlay-link">\n' +
+            '                                        <a href="http://placehold.it/750x540" class="overlay-link">\n' +
             '                                            <i class="fa fa-expand"></i>\n' +
             '                                        </a>\n' +
-            '                                        <a href="assets/img/property-6.jpg" class="hidden"></a>\n' +
-            '                                        <a href="assets/img/property-4.jpg" class="hidden"></a>\n' +
+            '                                        <a href="http://placehold.it/750x540" class="hidden"></a>\n' +
+            '                                        <a href="http://placehold.it/750x540" class="hidden"></a>\n' +
             '                                    </div>\n' +
             '                                </div>\n' +
             '                            </div>\n' +
@@ -564,11 +564,11 @@ function insertPropertyToArray(property, layout) {
             '                                        <i class="fa fa-video-camera"></i>\n' +
             '                                    </a>\n' +
             '                                    <div class="property-magnify-gallery">\n' +
-            '                                        <a href="assets/img/property-2.jpg" class="overlay-link">\n' +
+            '                                        <a href="http://placehold.it/750x540" class="overlay-link">\n' +
             '                                            <i class="fa fa-expand"></i>\n' +
             '                                        </a>\n' +
-            '                                        <a href="assets/img/property-6.jpg" class="hidden"></a>\n' +
-            '                                        <a href="assets/img/property-4.jpg" class="hidden"></a>\n' +
+            '                                        <a href="http://placehold.it/750x540" class="hidden"></a>\n' +
+            '                                        <a href="http://placehold.it/750x540" class="hidden"></a>\n' +
             '                                    </div>\n' +
             '                                </div>\n' +
             '                            </div>\n' +

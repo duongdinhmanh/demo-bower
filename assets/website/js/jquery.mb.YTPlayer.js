@@ -166,8 +166,7 @@ var getYTPVideoID = function( url ) {
                 var isIframe = function() {
                     var isIfr = false;
                     try {
-                        if( self.location.href != top.location.href )
-                            isIfr = true;
+                        if( self.location.href != top.location.href ) isIfr = true;
                     } catch( e ) {
                         isIfr = true;
                     }

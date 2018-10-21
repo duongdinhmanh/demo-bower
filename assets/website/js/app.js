@@ -4,7 +4,6 @@ $(function () {
 
     // On window's load
     $(window).on('load', function () {
-        populateColorPlates();
         setTimeout(function () {
             $(".page_loader").fadeOut("fast");
             $('link[id="style_sheet"]').attr('href', 'assets/css/skins/default.css');
@@ -42,17 +41,17 @@ $(function () {
                     $('.sticky-header').addClass('header-shrink');
                 }
                 if($('.do-sticky').length < 1) {
-                    $('.logo img').attr('src', 'assets/upload/logos/logo.png');
+                    $('.logo img').attr('src', 'assets/img/logos/logo.png');
                 }
             }
             else {
                 $('.sticky-header').removeClass('header-shrink');
                 if($('.do-sticky').length < 1) {
-                    $('.logo img').attr('src', 'assets/upload/logos/logo.png');
+                    $('.logo img').attr('src', 'assets/img/logos/logo-white.png');
                 }
             }
         } else {
-            $('.logo img').attr('src', 'assets/upload/logos/black-logo.png');
+            $('.logo img').attr('src', 'assets/img/logos/logo.png');
         }
     }
 
@@ -117,7 +116,7 @@ $(function () {
         doAnimations($animatingElems);
     });
     $('#carouselExampleIndicators').carousel({
-        interval: 3000,
+        interval: 300,
         pause: "false"
     });
 
@@ -128,7 +127,7 @@ $(function () {
 
     // DROPDOWN ON HOVER
 
-   $(".dropdown").on('hover', function () {
+    $(".dropdown").on('hover', function () {
             $('.dropdown-menu', this).stop().fadeIn("fast");
         },
         function () {
@@ -185,10 +184,11 @@ $(function () {
             }
         });
 
-        $('form').submit(function(event) {
+       /* $('form').submit(function(event) {
             event.preventDefault();
             return false;
         })
+        */
     });
 
 
@@ -293,11 +293,11 @@ $(function () {
 
     // Google map activation
     function LoadMap(propertes) {
-        var defaultLat = 40.7110411;
-        var defaultLng = -74.0110326;
+        var defaultLat = 45.083797;
+        var defaultLng = 7.437995;
         var mapOptions = {
             center: new google.maps.LatLng(defaultLat, defaultLng),
-            zoom: 15,
+            zoom: 13,
             scrollwheel: false,
             styles: [
                 {
@@ -327,7 +327,7 @@ $(function () {
         };
         var map = new google.maps.Map(document.getElementById("contactMap"), mapOptions);
         var infoWindow = new google.maps.InfoWindow();
-        var myLatlng = new google.maps.LatLng(40.7110411, -74.0110326);
+        var myLatlng = new google.maps.LatLng(45.083797,7.437995);
 
         var marker = new google.maps.Marker({
             position: myLatlng,
@@ -338,11 +338,11 @@ $(function () {
                 infoWindow.setContent("" +
                     "<div class='map-properties contact-map-content'>" +
                     "<div class='map-content'>" +
-                    "<p class='address'>123 Kathal St. Tampa City </p>" +
+                    "<p class='address'>Corso Torino 87/B </p>" +
                     "<ul class='map-properties-list'> " +
-                    "<li><i class='fa fa-phone'></i>  +XXXX XXXX XXX</li> " +
-                    "<li><i class='fa fa-envelope'></i>  info@themevessel.com</li> " +
-                    "<li><a href='index.html'><i class='fa fa-globe'></i>  http://http://themevessel.com</li></a> " +
+                    "<li><i class='fa fa-phone'></i>  0119352514</li> " +
+                    "<li><i class='fa fa-envelope'></i>  info@homstate.it</li> " +
+                    "<li><a href='index.php'><i class='fa fa-globe'></i>  https://www.homstate.it</li></a> " +
                     "</ul>" +
                     "</div>" +
                     "</div>");
@@ -674,6 +674,11 @@ $(function () {
         $('.option-panel').toggleClass('option-panel-collased');
     });
 });
+
+
+
+
+
 
 // mCustomScrollbar initialization
 (function ($) {

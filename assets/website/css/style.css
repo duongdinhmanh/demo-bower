@@ -681,7 +681,7 @@ input[type=checkbox]:checked + label:before {
     padding: 100px 0 70px;
 }
 
-.content-area-17{
+.content-area-17 {
     margin-bottom: 70px;
 }
 
@@ -1098,16 +1098,13 @@ a {
     width: 0;
 }
 
-
 .banner-bg{
-    background: url("../img/banner-1.jpg");
+    background: url(http://placehold.it/2200x1200);
 }
-
 
 .banner-bg-color{
 
 }
-
 
 .item-bg{
     /*background: url("../img/banner-1.jpg");*/
@@ -1272,7 +1269,7 @@ a {
 }
 /** SUB BANNER **/
 .sub-banner {
-    background: rgba(0, 0, 0, 0.04) url(../img/sub-banner.jpg) top left repeat;
+    background: rgba(0, 0, 0, 0.04) url(http://placehold.it/1920x290) top left repeat;
     background-size: cover;
     height: 290px;
     background-position: center center;
@@ -1323,7 +1320,7 @@ a {
 
 /** Blog BANNER **/
 .sub-banner-2 {
-    padding: 50px 0;
+    padding: 80px 0;
     background: #ececec;
     width: 100%;
     text-align: center;
@@ -1735,8 +1732,8 @@ a {
 }
 
 .property-box-3 img {
-    width: 130px;
-    height: 130px;
+    width: 72px;
+    height: 72px;
     border-radius: 3px;
     margin-right: 10px;
 }
@@ -1768,7 +1765,6 @@ a {
 .property-box-4 .property-img img{
     width: 100%;
 }
-
 
 .property-box-4 .text {
     position: absolute;
@@ -1973,7 +1969,7 @@ a {
     background-repeat: no-repeat;
     border: none;
     margin: 0;
-    background: rgba(0, 0, 0, 0.04) url(../img/sub-banner.jpg) top left repeat;
+    background: rgba(0, 0, 0, 0.04) url(http://placehold.it/350x214) top left repeat;
     background-size: cover;
     color: #efefef;
 }
@@ -2280,7 +2276,7 @@ a {
 .multi-carousel .multi-carousel-inner .item > div {
     padding: 25px 15px;
     margin: 10px;
-    background: #f1f1f1;
+    background: #ffffff;
     color: #666;
     min-height: 140px;
     text-align: center;
@@ -2347,6 +2343,7 @@ a {
     background: #ccc;
     border: none;
 }
+
 /** PARTNER AREA ENDED **/
 
 /** DROPZONE ENDED **/
@@ -3291,7 +3288,6 @@ a {
     color: #535353;
 }
 
-
 .agent-4 .details .contact ul li span {
     font-weight: 500;
     margin-right: 5px;
@@ -3304,10 +3300,6 @@ a {
 /** AGENT 5 STARTED **/
 .agent-5 {
     margin: 0 0 30px;
-}
-
-.agent-5 .media-body{
-    padding-right: 30px;
 }
 
 .agent-5 img {
@@ -3379,6 +3371,7 @@ a {
     position: relative;
     z-index: 9;
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+    
 }
 
 .pricing .price-header {
@@ -3450,6 +3443,14 @@ a {
 
 .pricing-tables .mrg-btn-76 {
     margin-bottom: 76px;
+}
+
+.pricing .content .fa-times {
+    color: red;
+}
+
+.pricing .content .fa-check {
+    color: green;
 }
 
 /** PRICING TABLES 3 STARTED **/
@@ -3610,7 +3611,7 @@ a {
     border: 1px solid #dedede;
     background: transparent;
     outline: 0;
-    color: #f6f6f6;
+    color: #000000;
     height: 45px;
     border-radius: 3px;
 }
@@ -3738,13 +3739,13 @@ a {
     font-size: 17px;
     margin-bottom: 30px;
     text-transform: uppercase;
-    color: #c5c5c5;
+    color: #ffffff;
     font-weight: 500;
     letter-spacing: 1px;
 }
 
 .footer a {
-    color: #7c7e83;
+    color: #ffffff;
     font-size: 13px;
 }
 
@@ -3753,7 +3754,7 @@ a {
 }
 
 .footer {
-    background: #111;
+    background: #243448;
     padding: 100px 0 0;
 }
 
@@ -3848,7 +3849,7 @@ a {
     border: none;
     margin-bottom: 30px;
     position: relative;
-    background: #fff
+    background: #fff;
 }
 
 .blog-grid-box:hover{
@@ -4828,7 +4829,6 @@ table {
     background-color: #fff;
     border-bottom: 1px solid #fff;
     font-size: 14px;
-
     border-bottom: solid 1px #d8d8d8;
 }
 
@@ -4933,6 +4933,7 @@ table {
 .typography-2 .sd p {
     margin-bottom: 40px;
 }
+
 
 .hr-title.hr-long {
     width: 50%;
@@ -5395,7 +5396,7 @@ table {
 /** SELL YOUR PROPERTIES **/
 .sell-your-properties {
     text-align: center;
-    background: rgba(0, 0, 0, 0.04) url(../img/property-15.jpg) top left repeat;
+    background: rgba(0, 0, 0, 0.04) url(http://placehold.it/330x221) top left repeat;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -5418,7 +5419,7 @@ table {
 
 /** HELPING CENTER **/
 .helping-center {
-    background: rgba(0, 0, 0, 0.04) url(../img/property-15.jpg) top left repeat;
+    background: rgba(0, 0, 0, 0.04) url(http://placehold.it/330x115) top left repeat;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -5470,7 +5471,7 @@ table {
 
 /** COMING SOON **/
 .coming-soon-bg {
-    background: rgba(0, 0, 0, 0.04) url(../img/banner-2.jpg) top left repeat;
+    background: rgba(0, 0, 0, 0.04) url(http://placehold.it/1920x800) top left repeat;
     background-size: cover;
     top: 0;
     width: 100%;
@@ -5820,7 +5821,6 @@ table {
     margin-bottom: 30px;
     position: relative;
     cursor: pointer;
-
 }
 
 .portfolio-item img, .portfolio-item img:focus {
@@ -6046,6 +6046,12 @@ table {
     font-size: 14px;
 }
 
+.brand-box h6 {
+    font-weight: 500;
+    margin: 0;
+    font-size: 13px;
+}
+
 .brand-box img {
     height: 50px;
 }
@@ -6090,19 +6096,7 @@ table {
     background: #fff;
 }
 
-.search-area .search-button {
-    cursor: pointer;
-    padding: 13px 20px;
-    letter-spacing: 1px;
-    font-size: 13px;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: #FFF;
-    transition: .5s;
-    border-radius: 2px;
-    border: none;
-    width: 100%;
-}
+
 
 .search-area .search-button:hover,
 .search-area .search-button:focus {
@@ -6329,10 +6323,6 @@ body.off-canvas-sidebar-open {
     transform: translateX(5px);
 }
 
-.canvas-widget .logo{
-
-}
-
 .canvas-widget .social-icons {
     text-align: center;
     margin-top: 80px;
@@ -6360,12 +6350,12 @@ body.off-canvas-sidebar-open {
 
 /** MEDIA **/
 @media (max-width: 1200px) {
-    .property-box-3 .media-body{
-        padding-right: 0;
-    }
-
     .property-box-3 h3 {
         font-size: 17px;
+    }
+
+    .property-box-3 .media-body{
+        padding-right: 0;
     }
 
     .property-box-5 .detail {
@@ -6411,10 +6401,6 @@ body.off-canvas-sidebar-open {
         max-width: 430px;
     }
 
-    .agent-5 .media-body{
-        padding-right: 0;
-    }
-
     .agent-5 h3 {
         font-size: 19px;
     }
@@ -6422,20 +6408,20 @@ body.off-canvas-sidebar-open {
     .main-title {
         margin-bottom: 40px;
     }
+
 }
 
 @media (max-width: 992px) {
     .open-offcanvas {
         padding: 18px 15px 15px;
     }
-
-    .coming-soon-inner {
-        margin: 70px auto 30px;
-    }
-
     .navbar-collapse {
         margin: 0px -15px;
         background: #FFF;
+    }
+
+    .coming-soon-inner {
+        margin: 70px auto 30px;
     }
 
     .footer{
@@ -6540,7 +6526,7 @@ body.off-canvas-sidebar-open {
         padding: 80px 0 50px;
     }
 
-    .content-area-17{
+    .content-area-17 {
         margin-bottom: 50px;
     }
 
@@ -6960,6 +6946,10 @@ body.off-canvas-sidebar-open {
         padding: 60px 0 30px;
     }
 
+    .content-area-18 {
+        padding: 60px 0 20px;
+    }
+
     .content-area-3 {
         padding-bottom: 44px;
     }
@@ -7016,21 +7006,12 @@ body.off-canvas-sidebar-open {
         padding: 60px 0 30px;
     }
 
-    .content-area-17{
+    .content-area-17 {
         margin-bottom: 30px;
-    }
-
-    .content-area-18 {
-        padding: 60px 0 20px;
     }
 
     .property-modal .modal-header .modal-title {
         font-size: 20px;
-    }
-
-    .banner .banner-slider-inner h3 {
-        margin-bottom: 15px;
-        font-size: 24px;
     }
 
     .footer{
@@ -7059,6 +7040,10 @@ body.off-canvas-sidebar-open {
 
     .main-title h1 {
         font-size: 25px;
+    }
+
+    .services-info {
+        margin-bottom: 30px;
     }
 
     .multi-carousel .multi-carousel-inner .item > div img {
@@ -7227,6 +7212,11 @@ body.off-canvas-sidebar-open {
     .banner .banner-slider-inner h1 {
         font-size: 24px;
         margin-bottom: 15px;
+    }
+
+    .banner .banner-slider-inner h3 {
+        margin-bottom: 15px;
+        font-size: 24px;
     }
 
     .banner .banner-slider-inner {
@@ -7523,11 +7513,6 @@ body.off-canvas-sidebar-open {
     .banner .banner-slider-inner .typed-text {
         font-size: 35px;
     }
-
-    .setting-button{
-        display: none;
-    }
-
 }
 
 @media (max-width: 500px) {
@@ -7635,7 +7620,7 @@ body.off-canvas-sidebar-open {
     }
 
     .helping-center {
-        background: rgba(0, 0, 0, 0.04) url(../img/property-15.jpg) top left repeat;
+        background: rgba(0, 0, 0, 0.04) url(../img/property-15.html) top left repeat;
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
