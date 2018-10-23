@@ -1269,7 +1269,7 @@ a {
 }
 /** SUB BANNER **/
 .sub-banner {
-    background: rgba(0, 0, 0, 0.04) url(http://placehold.it/1920x290) top left repeat;
+    background: rgba(0, 0, 0, 0.04) url('../img/sub-banner.jpg') top left repeat;
     background-size: cover;
     height: 290px;
     background-position: center center;
@@ -5419,7 +5419,7 @@ table {
 
 /** HELPING CENTER **/
 .helping-center {
-    background: rgba(0, 0, 0, 0.04) url(http://placehold.it/330x115) top left repeat;
+    background: rgba(0, 0, 0, 0.04) url('../img/property-15.jpg') top left repeat;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
